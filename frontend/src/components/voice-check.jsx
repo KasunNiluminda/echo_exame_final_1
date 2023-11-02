@@ -214,7 +214,7 @@ function VoiceCheck() {
 
         <div className="flex mx-56 justify-center mt-48 py-14 bg-accent text-center">
           <h4 className="">
-            Sample text to read. Wait for 10 second to user identify.
+            Say your name and Wait for 10 second to user identify.
           </h4>
         </div>
 
