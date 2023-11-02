@@ -169,9 +169,9 @@ function LmsDashboard() {
           </Link>
           <br />
           <div>
-            <h4 className="capitalize text-primary">student name</h4>
+            <h4 className="capitalize text-primary">rusiru perera</h4>
             <h5 className="capitalize text-primary font-medium">
-              student email
+              rusiru@sliit.lk
             </h5>
             <Link to="/stu-login" className="flex w-28">
               {" "}
@@ -201,10 +201,10 @@ function LmsDashboard() {
             <div className="">
               <div className="flex w-96 gap-4">
                 <p className="capitalize font-semibold">
-                  subject code : SCC00045
+                  subject code : SCC041
                 </p>
                 <p className="capitalize font-semibold">-</p>
-                <p className="capitalize font-semibold">Networking</p>
+                <p className="capitalize font-semibold">General knowledge</p>
               </div>
               <div className="mt-4 font-medium">
                 <span className="capitalize">start time: 06.00 p.m</span>
