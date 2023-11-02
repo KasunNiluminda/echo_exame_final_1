@@ -22,7 +22,7 @@ function StudentLogin() {
               <input type="email" placeholder='Email' className='p-3 bg-[#BCE6F5] placeholder-emerald-950 w-80 text-black rounded-full' /> <br/>
               <input type="password" placeholder='Password' className='p-3 mt-6 mb-20 bg-[#BCE6F5] placeholder-emerald-950 w-80 text-black rounded-full' /> <br/>
               
-              <Link to='#' 
+              <Link to='/camera-check' 
                 className='bg-primary capitalize roboto text-white mt-12 ml-24 text-2xl py-2.5 px-7 rounded-full font-bold'>
                   login
               </Link>
