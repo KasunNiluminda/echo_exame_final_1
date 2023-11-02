@@ -45,7 +45,7 @@ function lectureHome() {
       <div>
         <div className="flex py-14 px-20 justify-end">
           <div>
-            <h4 className="capitalize text-primary">Lecture Name</h4>
+            <h4 className="capitalize text-primary">Roshan jayawardhana</h4>
             <div className="flex logout" onClick={onLogout}>
               <img src={SignoutIcon} className="h-8" />
               <p className="text-primary font-semibold">Sign out</p>
@@ -56,7 +56,7 @@ function lectureHome() {
         <div className="container mx-auto mt-16">
           <Link
             onClick={() => setShowQuizPopup(true)}
-            to="#"
+            to="/add-quiz"
             className="flex justify-center py-6 rounded-t-3xl rounded-bl-3xl mx-32 bg-primary">
             <h4 className="text-white capitalize text-center">add quiz</h4>
           </Link>
@@ -66,7 +66,7 @@ function lectureHome() {
             <h4 className="text-white capitalize text-center">pending quiz</h4>
           </Link>
           <Link
-            to="#"
+            to="/quiz-history"
             className="flex justify-center py-6 mt-10 rounded-t-3xl rounded-bl-3xl mx-32 bg-primary">
             <h4 className="text-white capitalize text-center">quiz history</h4>
           </Link>
