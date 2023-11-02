@@ -41,11 +41,11 @@ function home() {
               className="float-right 2xl:mr-56 lg:mr-40 bg-primary capitalize roboto text-white mt-10 text-3xl py-2.5 px-4 rounded-full font-bold">
               signup
             </Link>
-            <Link
+            {/* <Link
               to="/login"
               className="float-right 2xl:mr-56 lg:mr-40 bg-primary capitalize roboto text-white mt-10 text-3xl py-2.5 px-4 rounded-full font-bold">
               login
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
